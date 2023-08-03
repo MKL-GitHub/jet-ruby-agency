@@ -1,0 +1,16 @@
+.ApiMessage {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  transition: 500ms;
+
+  &_error {
+    background-color: #ff0000ab;
+  }
+  &_message {
+    background-color: #07c900ab;
+  }
+}

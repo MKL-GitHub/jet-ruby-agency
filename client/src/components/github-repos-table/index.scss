@@ -1,0 +1,61 @@
+.GithubReposTableContainer {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid #00000033;
+}
+
+.GithubReposTable {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+
+  &-head {
+    background-color: #d1d1d175;
+  }
+
+  &-th,
+  &-td {
+    border: 1px solid #00000033;
+
+    &:nth-child(1) {
+      width: 10%;
+      border-left: none;
+    }
+    &:nth-child(2) {
+      width: 25%;
+    }
+    &:nth-child(3) {
+      width: 5%;
+    }
+    &:nth-child(4) {
+      width: 15%;
+    }
+    &:nth-child(5) {
+      width: 45%;
+      border-right: none;
+    }
+  }
+
+  &-th {
+    padding: 0.6rem;
+    border-top: none;
+    border-bottom: 2px solid #b8b8b8;
+  }
+
+  &-bodyTr {
+    &:last-child > td {
+      border-bottom: none;
+    }
+  }
+
+  &-td {
+    padding: 0.3rem;
+  }
+
+  &-empty {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem;
+    border-right: none;
+  }
+}

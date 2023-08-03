@@ -1,0 +1,23 @@
+.PageLayout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+@media (max-width: 1000px) {
+  .PageLayout {
+    padding: 0 3rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .PageLayout {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .PageLayout {
+    padding: 0 1rem;
+  }
+}
